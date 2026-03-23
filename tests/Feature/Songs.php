@@ -41,7 +41,7 @@ test('create song', function () {
     $this->postJson('/api/songs', $song)
         ->assertCreated()
         ->assertJsonFragment([
-            'name' => 'Test Song'
+            'name' => 'Cacion generica'
         ]);
 
 });
